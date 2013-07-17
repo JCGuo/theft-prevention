@@ -13,9 +13,7 @@ namespace FaceTracking3D
     using Microsoft.Kinect;
     using Microsoft.Kinect.Toolkit;
 
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         private readonly KinectSensorChooser sensorChooser = new KinectSensorChooser();
